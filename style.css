@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    font-style: arial;
+    border:border-box;
+}
+ .navbar {
+     height: 60px;
+     background-color: #0f1111;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ .nav-logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+ }
+
+ .logo{
+    background-image: url(amazon.png);
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+ }
+ .border{
+    border: 2px solid transparent;
+ }
+ .border:hover{
+    border:2px solid white;
+ }
+
+ /**box2**/
+ .add1{
+    color: #CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 15px;
+ }
+ .add2{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+ }
+
+ .icon{
+   display: flex;
+   align-items:center;
+ }
+
+ /**box3**/
+ .nav-search{
+   display: flex;
+   background-color: pink;
+   width: 625px;
+   height: 40px;
+   border-radius: 4px;
+   display: flex;
+   justify-content: space-evenly;
+ }
+.Search-select{
+   background-color: #f3f3f3;
+   border: none;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius:4px ;
+   width: 50px;
+   text-align: center;
+}
+.Search-input{
+   border: none;
+   width: 100%;
+   font-size: 1rem;
+}
+.Search{
+   width: 55px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   background-color:#febd68;
+   color: black;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+   border: 2px solid orange;
+}
+/**box4**/
+
+.nav1 {
+   font-size: 12px;
+   color: #FFFFFF;
+}
+.nav2{
+   font-size: 14px;
+   color: #FFFFFF;
+   font-weight: 700;
+}
+
+
+/**box5**/
+.order1 {
+   font-size: 12px;
+   color: #FFFFFF;
+}
+.order2{
+   font-size: 14px;
+   color: #FFFFFF;
+   font-weight: 700;
+}
+
+/**box6**/
+.nav-cart i{
+   font-size: 30px;
+}
+.nav-cart{
+   font-size: 14px;
+   font-weight:700;
+}
+
+
+
+/** panel**/
+.Panel{
+   height: 40px;
+   background-color: #222f3d;
+   display: flex;
+   color: white;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.panel-options p{
+   display: inline;
+   margin-left: 15px;
+}
+.panel-options{
+   width: 70%;
+   font-size: 0.85rem;
+}
+.panel-deals{
+   font-size: 0.9rem;
+   font-weight: bolder;
+}
+
+/**hero**/
+.hero{
+   background-image: url("hero.jpg");
+   height: 430px;
+   background-size: cover;
+}
+/**shop section**/
+
+.shop-section{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(255, 213, 255);
+   flex-wrap: wrap;
+}
+.box{
+   height: 420px;
+   width: 23%;
+   border:none;
+   margin-top: 15px;
+   background-color: white;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.b1{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b1box1.jpg);
+   font-size: 21px;
+   color: #0f1111;
+}
+.b2{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b2box1.jpg);
+   font-size: 21px;
+   color: #0f1111;
+}
+.b3{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b3box1.jpg);
+   font-size: 21px;
+   color: #0f1111;
+}
+.b4{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b4box1.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b5{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b5box2.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b6{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b6box2.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b7{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b7box2.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111; 
+}
+.b8{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b8box2.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b9{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b9box3.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b10{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b10box3.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b11{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b11box3.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b12{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b12box3.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b13{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b13box4.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b14{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b14box4.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b15{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b15box4.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.b16{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(b16box4.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a1{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a1box5.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a2{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a2box5.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a3{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a3box5.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a4{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a4box5.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a5{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a5box6.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a6{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a6box6.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a7{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a7box6.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111; 
+}
+.a8{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a8box6.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a9{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a9box7.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a10{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a10box7.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a11{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a11box7.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a12{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a12box7.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a13{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a13box8.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a14{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a14box8.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a15{
+   border: none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a15box8.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+.a16{
+   border:none;
+   height: 148px;
+   width: 142px;
+   background-image: url(a16box8.jpg);
+   background-size: cover;
+   font-size: 21px;
+   color: #0f1111;
+}
+
+.footer{
+   margin-top: 15px;
+}
+.foot-panel1{
+   height: 50px;
+   width: 100%;
+   background-color: #37475a;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 0.85rem;
+}
+.foot-panel2{
+   background-color: #222f3d;
+   color: white;
+   height: 500px;
+   display: flex;
+   justify-content: space-evenly;
+}
+ul{
+   margin-top: 40px;
+}
+ul a{
+   display: block;
+   font-size: 0.85rem;
+   margin-top: 10px;
+   color: #DDDDDD;
+}
+ul p{
+   font-weight: bold;
+}
+.foot-panel3{
+   background-color: #222f3d;
+   color: white;
+   border-top: 0.5px solid white;
+   height: 68px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+   background-image: url(amazon.png);
+   background-size: cover;
+   height: 30px;
+   width: 100px;
+}
+.foot-panel4{
+   background-color:#0f1111;
+   height: 80px;
+   color: white;
+}
+.pages{
+   font-size: 12px;
+   text-align: center;
+   padding-top: 25px;
+}
+.copyright{
+   font-size: 12px;
+   text-align: center;
+   margin-top: 5px;
+}
